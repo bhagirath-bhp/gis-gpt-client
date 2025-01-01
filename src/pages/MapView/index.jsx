@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
 
 const MapView = () => {
-  const position = [51.505, -0.09]; // Example coordinates
+  const position = [31.04, 75.41]; // punjab coordinates
   return (
     <MapContainer center={position} zoom={13} style={{ height: "100%", width: "100%" }}>
       <div style={{ height: "100vh", width: "100%" }}>
